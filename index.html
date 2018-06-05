@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Captain Planet: The Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap File -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Overall Bootstrap Grid -->
+  <div class="container">
+
+    <!-- Jumbotron with Title -->
+    <div class="jumbotron">
+      <h1 class="text-center">
+        <strong>Programming Languages</strong>
+      </h1>
+      <hr>
+      <div class="text-center">
+        <button class="btn btn-warning btn-xs theme-button">
+          <span class="fa fa-music"></span> Play Theme!</button>
+        <button class="btn btn-dark btn-xs pause-button">
+          <span class="fa fa-pause"></span> Pause Song</button>
+      </div>
+
+    </div>
+    <div class="row">
+
+      <div class="col-lg-6">
+
+        <!-- Controls Song title-->
+        <div class="card">
+          <h4 class="card-header">Press Any key to get started!</h4>
+          <div class="card-body">
+            <div class="text-center" id="song-title">
+             
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls list of guessed letters -->
+        <div class="card">
+          <h4 class="card-header">Letters already guessed:</h4>
+          <div class="card-body">
+            <div class="text-center" id= "guessed-letters">
+             
+            </div>
+          </div>
+        </div>
+
+        <!-- Guesses remaining -->
+        <div class="card">
+          <h4 class="card-header">Number of guesses remaining:</h4>
+          <div class="card-body">
+            <div class="text-center" id="number-of-guesses-remaining">
+              
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls (Superpower Move Controls) -->
+        <div class="card">
+          <h4 class="card-header">Number of wins:</h4>
+          <div class="card-body">
+            <div class="text-center" id="number-of-wins">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Panel (Captain Planet Hero)-->
+      <div class="col-lg-6">
+
+        <!-- Captain Planet Image -->
+        <img src="" alt="" class="img captain-planet" style="position:absolute; top:50px; left: 80px; z-index: -20; height: 300px">
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/javascript/games.js">
+  </script>
+
+</body>
+</html>
